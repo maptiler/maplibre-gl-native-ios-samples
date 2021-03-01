@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "maplibre-gl-native",
+        "repositoryURL": "https://github.com/maptiler/maplibre-gl-native-distribution.git",
+        "state": {
+          "branch": null,
+          "revision": "69f6ae696276d4e673fd811f165c329e1205e12a",
+          "version": "5.9.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
