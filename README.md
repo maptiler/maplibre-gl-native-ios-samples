@@ -1,3 +1,3 @@
 # mobile-code-samples-ios
 
-test
+MapTiler Mobile code samples for iOS
