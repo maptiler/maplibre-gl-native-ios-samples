@@ -1,3 +1,3 @@
-# mobile-code-samples-ios
+# maplibre-gl-native-ios-samples
 
-MapTiler Mobile code samples for iOS
+MapTiler code samples for MapLibre GL Native iOS
