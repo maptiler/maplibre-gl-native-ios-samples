@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B2911B825A4787A006A33B5 /* MapboxMobileEvents in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2911B725A4787A006A33B5 /* MapboxMobileEvents */; };
-		4B2911BA25A4787A006A33B5 /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2911B925A4787A006A33B5 /* Mapbox */; };
+		4B2AAC302628178D009F225A /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2AAC2F2628178D009F225A /* Mapbox */; };
 		4BC25F9E252BB9E300C5BA71 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC25F9D252BB9E300C5BA71 /* MapView.swift */; };
 		4BD1E1AD252BB0ED00864780 /* SimpleMap_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E1AC252BB0ED00864780 /* SimpleMap_SwiftUIApp.swift */; };
 		4BD1E1AF252BB0ED00864780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E1AE252BB0ED00864780 /* ContentView.swift */; };
@@ -31,8 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2911B825A4787A006A33B5 /* MapboxMobileEvents in Frameworks */,
-				4B2911BA25A4787A006A33B5 /* Mapbox in Frameworks */,
+				4B2AAC302628178D009F225A /* Mapbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +91,7 @@
 			);
 			name = SimpleMap_SwiftUI;
 			packageProductDependencies = (
-				4B2911B725A4787A006A33B5 /* MapboxMobileEvents */,
-				4B2911B925A4787A006A33B5 /* Mapbox */,
+				4B2AAC2F2628178D009F225A /* Mapbox */,
 			);
 			productName = SimpleMap_SwiftUI;
 			productReference = 4BD1E1A9252BB0ED00864780 /* SimpleMap_SwiftUI.app */;
@@ -124,7 +121,7 @@
 			);
 			mainGroup = 4BD1E1A0252BB0ED00864780;
 			packageReferences = (
-				4B2911B625A4787A006A33B5 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+				4B2AAC2E2628178D009F225A /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
 			);
 			productRefGroup = 4BD1E1AA252BB0ED00864780 /* Products */;
 			projectDirPath = "";
@@ -345,25 +342,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		4B2911B625A4787A006A33B5 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+		4B2AAC2E2628178D009F225A /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/maptiler/maplibre-gl-native-distribution.git";
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.0;
+				minimumVersion = 5.11.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4B2911B725A4787A006A33B5 /* MapboxMobileEvents */ = {
+		4B2AAC2F2628178D009F225A /* Mapbox */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4B2911B625A4787A006A33B5 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
-			productName = MapboxMobileEvents;
-		};
-		4B2911B925A4787A006A33B5 /* Mapbox */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4B2911B625A4787A006A33B5 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			package = 4B2AAC2E2628178D009F225A /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
 			productName = Mapbox;
 		};
 /* End XCSwiftPackageProductDependency section */
