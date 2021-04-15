@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B2911C125A4856E006A33B5 /* MapboxMobileEvents in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2911C025A4856E006A33B5 /* MapboxMobileEvents */; };
 		4B2911C325A4856E006A33B5 /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2911C225A4856E006A33B5 /* Mapbox */; };
 		4BD1E186252BA7EC00864780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E185252BA7EC00864780 /* AppDelegate.swift */; };
 		4BD1E188252BA7EC00864780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1E187252BA7EC00864780 /* SceneDelegate.swift */; };
@@ -33,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2911C125A4856E006A33B5 /* MapboxMobileEvents in Frameworks */,
 				4B2911C325A4856E006A33B5 /* Mapbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +86,6 @@
 			);
 			name = SimpleMap_UIKit;
 			packageProductDependencies = (
-				4B2911C025A4856E006A33B5 /* MapboxMobileEvents */,
 				4B2911C225A4856E006A33B5 /* Mapbox */,
 			);
 			productName = SimpleMap_UIKit;
@@ -365,11 +362,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4B2911C025A4856E006A33B5 /* MapboxMobileEvents */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4B2911BF25A4856E006A33B5 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
-			productName = MapboxMobileEvents;
-		};
 		4B2911C225A4856E006A33B5 /* Mapbox */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4B2911BF25A4856E006A33B5 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
