@@ -11,7 +11,6 @@
 		4B40DF5B25D31F680027C4FD /* BasicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF5A25D31F680027C4FD /* BasicMap.swift */; };
 		4B40DF5E25D31F860027C4FD /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF5D25D31F860027C4FD /* Annotations.swift */; };
 		4B40DF6125D31F9A0027C4FD /* RasterOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF6025D31F9A0027C4FD /* RasterOverlay.swift */; };
-		4B40DF6525D325720027C4FD /* MapboxMobileEvents in Frameworks */ = {isa = PBXBuildFile; productRef = 4B40DF6425D325720027C4FD /* MapboxMobileEvents */; };
 		4B40DF6725D325720027C4FD /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = 4B40DF6625D325720027C4FD /* Mapbox */; };
 		4B40DF6A25D327AF0027C4FD /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF6925D327AF0027C4FD /* Helper.swift */; };
 		4B423D9025D43009000221A7 /* LocationPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B423D8F25D43009000221A7 /* LocationPermissions.swift */; };
@@ -49,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B40DF6525D325720027C4FD /* MapboxMobileEvents in Frameworks */,
 				4B40DF6725D325720027C4FD /* Mapbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +126,6 @@
 			);
 			name = MapLibreExamples;
 			packageProductDependencies = (
-				4B40DF6425D325720027C4FD /* MapboxMobileEvents */,
 				4B40DF6625D325720027C4FD /* Mapbox */,
 			);
 			productName = MapLibreExamples;
@@ -400,11 +397,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		4B40DF6425D325720027C4FD /* MapboxMobileEvents */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4B40DF6325D325720027C4FD /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
-			productName = MapboxMobileEvents;
-		};
 		4B40DF6625D325720027C4FD /* Mapbox */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4B40DF6325D325720027C4FD /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
