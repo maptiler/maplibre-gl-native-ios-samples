@@ -48,12 +48,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Your precise location is used to show your location on the map.</string>
-    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
-    <dict>
-        <key>MGLAccuracyAuthorizationDescription</key>
-        <string>Please enable precise location. Display of your position on the map only works when precise location data is available.</string>
-    </dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your precise location is used to show your location on the map.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>MGLAccuracyAuthorizationDescription</key>
+		<string>Please enable precise location. Display of your position on the map only works when precise location data is available.</string>
+	</dict>
 </dict>
 </plist>

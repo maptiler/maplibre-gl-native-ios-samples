@@ -16,6 +16,8 @@ struct MapWithSlopes: UIViewRepresentable {
         Helper.validateKey(mapTilerKey)
         
         // Use your custom style url
+        // replace the map identifier (f3c7b19d-7f5b-42a2-8b98-90ed51ca373a) with your own identifier
+        // see https://docs.maptiler.com/maplibre-gl-native-ios/ios-swiftui-custom-map/#publish-the-map
         let styleURL = URL(string: "https://api.maptiler.com/maps/f3c7b19d-7f5b-42a2-8b98-90ed51ca373a/style.json?key=\(mapTilerKey)")
         
         // create the mapview

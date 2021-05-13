@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B310CFB264DBC8B001557C7 /* MarkerSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B310CFA264DBC8B001557C7 /* MarkerSymbol.swift */; };
+		4B310CFE264DC041001557C7 /* ApproximateLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B310CFD264DC041001557C7 /* ApproximateLocation.swift */; };
 		4B40DF5825D31BD40027C4FD /* SdkSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF5725D31BD40027C4FD /* SdkSample.swift */; };
 		4B40DF5B25D31F680027C4FD /* BasicMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF5A25D31F680027C4FD /* BasicMap.swift */; };
 		4B40DF5E25D31F860027C4FD /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B40DF5D25D31F860027C4FD /* Annotations.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B310CFA264DBC8B001557C7 /* MarkerSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerSymbol.swift; sourceTree = "<group>"; };
+		4B310CFD264DC041001557C7 /* ApproximateLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproximateLocation.swift; sourceTree = "<group>"; };
 		4B40DF5725D31BD40027C4FD /* SdkSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SdkSample.swift; sourceTree = "<group>"; };
 		4B40DF5A25D31F680027C4FD /* BasicMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicMap.swift; sourceTree = "<group>"; };
 		4B40DF5D25D31F860027C4FD /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				4B423D8F25D43009000221A7 /* LocationPermissions.swift */,
 				4B772EBA25DEE6E000A56358 /* CustomMap.swift */,
 				4B5A15EC25DFAE300046462D /* GeoJsonOverlay.swift */,
+				4B310CFA264DBC8B001557C7 /* MarkerSymbol.swift */,
+				4B310CFD264DC041001557C7 /* ApproximateLocation.swift */,
 			);
 			path = MapLibreExamples;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 				4B40DF6A25D327AF0027C4FD /* Helper.swift in Sources */,
 				4B40DF5B25D31F680027C4FD /* BasicMap.swift in Sources */,
 				4B40DF5E25D31F860027C4FD /* Annotations.swift in Sources */,
+				4B310CFB264DBC8B001557C7 /* MarkerSymbol.swift in Sources */,
+				4B310CFE264DC041001557C7 /* ApproximateLocation.swift in Sources */,
 				4BF26D5125D1BB0000906A2F /* ContentView.swift in Sources */,
 				4BF26D4F25D1BB0000906A2F /* MapLibreExamplesApp.swift in Sources */,
 				4B772EBB25DEE6E000A56358 /* CustomMap.swift in Sources */,

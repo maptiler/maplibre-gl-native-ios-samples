@@ -1,10 +1,3 @@
-//
-//  GeoJsonOverlay.swift
-//  MapLibreExamples
-//
-//  Created by Petr Pokorny on 2/19/21.
-//
-
 import Mapbox
 import SwiftUI
 
